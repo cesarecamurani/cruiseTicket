@@ -1,0 +1,34 @@
+{
+  "name": "cruiseticket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "cov": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarecamurani/cruiseTicket.git"
+  },
+  "keywords": [
+    "cruise"
+  ],
+  "author": "cesarecamurani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarecamurani/cruiseTicket/issues"
+  },
+  "homepage": "https://github.com/cesarecamurani/cruiseTicket#readme",
+  "dependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.1.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "jest": "^24.1.0"
+  }
+}
